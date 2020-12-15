@@ -16,8 +16,8 @@ do {
 	    	  ob.operation();
 	      }
 		else {
-			System.out.println("Вводите числа от 1 до 10");
-			System.out.println("Завершение работы");
+			System.out.println("Р’РІРѕРґРёС‚Рµ С‡РёСЃР»Р° РѕС‚ 1 РґРѕ 10");
+			System.out.println("Р—Р°РІРµСЂС€РµРЅРёРµ СЂР°Р±РѕС‚С‹");
 			return;
 		}
 	}
@@ -34,14 +34,14 @@ do {
 	      }
 		
 		else {
-			System.out.println("Вводите числа от I до X");
-			System.out.println("Завершение работы");
+			System.out.println("Р’РІРѕРґРёС‚Рµ С‡РёСЃР»Р° РѕС‚ I РґРѕ X");
+			System.out.println("Р—Р°РІРµСЂС€РµРЅРёРµ СЂР°Р±РѕС‚С‹");
 			return;
 		}
 		
 	}
 	
-	System.out.println("Ввести новое значение 'y' - да, 'n' - нет");
+	System.out.println("Р’РІРµСЃС‚Рё РЅРѕРІРѕРµ Р·РЅР°С‡РµРЅРёРµ 'y' - РґР°, 'n' - РЅРµС‚");
 	Scanner scan = new Scanner(System.in);
  playAgain = scan.next();
 	} while(playAgain.equalsIgnoreCase("y"));
