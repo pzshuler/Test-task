@@ -22,8 +22,8 @@ public class RomanNumeral {
 		BufferedReader reader = new 
 				  BufferedReader(new InputStreamReader(System.in));
 	
-		System.out.println("Введите арифмитическое"
-				+ " выражение: ");
+		System.out.println("Р’РІРµРґРёС‚Рµ Р°СЂРёС„РјРёС‚РёС‡РµСЃРєРѕРµ"
+				+ " РІС‹СЂР°Р¶РµРЅРёРµ: ");
 		String[] data =
         		reader.readLine().split(" ");
         a = data[0];
@@ -85,8 +85,8 @@ public class RomanNumeral {
 		          System.out.println(result);   
 		        }   
 		        else {
-		        	System.out.println("Введите корректный символ "
-		        			+ "арифметической операции");
+		        	System.out.println("Р’РІРµРґРёС‚Рµ РєРѕСЂСЂРµРєС‚РЅС‹Р№ СЃРёРјРІРѕР» "
+		        			+ "Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРѕР№ РѕРїРµСЂР°С†РёРё");
 		        	
 		        }
 	}
